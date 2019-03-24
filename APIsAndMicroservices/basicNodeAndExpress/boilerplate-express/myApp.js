@@ -1,6 +1,6 @@
 
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 const port = 3000
 
 // --> 7)  Mount the Logger middleware here
@@ -51,7 +51,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 // This would be part of the basic setup of an Express app
 // but to allow FCC to run tests, the server is already active
-app.listen(process.env.PORT || 3000 );
+app.listen(3000);
 
 //---------- DO NOT EDIT BELOW THIS LINE --------------------
 
