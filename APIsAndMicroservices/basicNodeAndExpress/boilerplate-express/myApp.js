@@ -10,7 +10,7 @@ const port = 3000
 
 
 /** 1) Meet the node console. */
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/_api/hello-console', (req, res) => res.send('Hello World!'))
 
 /** 2) A first working Express Server */
 
